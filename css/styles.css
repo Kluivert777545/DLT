@@ -19,13 +19,13 @@ body {
 .btn-warning {
     background-color: #e0a30b;
     border-color: #000000;
-    color: #ffffff;
+    color: #211f20;
     transition: all 0.3s ease-in-out;
 }
 
 .btn-warning:hover {
     background-color: #444444;
-    border-color: #444444;
+    border-color: #3e3a3a;
 }
 
 .btn-outline-warning {
@@ -48,7 +48,7 @@ form label {
 form .form-control, form .form-select {
     border-radius: 0.375rem;
     padding: 0.75rem 1rem;
-    border: 1px solid #cccccc;
+    border: 1px solid #080101e3;
     box-shadow: none;
 }
 
@@ -101,24 +101,25 @@ footer a:hover {
 }
 
 .card-img-top:hover {
-    transform: 2px;
+    transform: scale(1.05);
     filter: grayscale(10%);
 }
 
 .navbar {
-  padding: 5px 10px; /* Reduce padding top-bottom and left-right */
-  height: 50px; /* Optional: control total height */
+  padding: 2px 5px; /* Reduce padding top-bottom and left-right */
+  height: 70px; /* Optional: control total height */
   font-size: 15px; /* Optional: reduce font size */
 }
 
 .navbar ul {
-  margin: 0;
-  padding: 0;
+  margin: 0rem;
+  padding: 0rem;
   list-style: none;
   display: flex;
   align-items: center;
   height: 100%;
 }
+
 
 .navbar li {
   margin-right: 15px;
@@ -126,6 +127,6 @@ footer a:hover {
 
 .navbar a {
   text-decoration: none;
-  color: rgb(255, 252, 252); /* or your preferred color */
+  color: rgb(255, 255, 255); /* or your preferred color */
   padding: 8px 12px;
 }

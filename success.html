@@ -15,48 +15,48 @@
     <title>Delight Sprinkle Treats | Thank you</title>
 
     <!-- bootstrap 5 css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
+
+
     <!-- custom css -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<!-- classes on body set to work with mt-auto on footer to 
-    ensure it always stays at the bottom of the page -->
+
 
 <body class="d-flex flex-column min-vh-100">
-    <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="text-light">
+    <!-- Navbar -->
+    <body class="d-flex flex-column min-vh-100">
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img class="logo" src="images/DLT.jpeg" alt="Delight Sprinkle Treats Logo" height="40">
+                <img src="images/DLT.jpeg" alt="Delight Sprinkle Treats logo" class="logo" height="30">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="index.html#events" class="nav-link">Events</a>
-                        
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="btn custom-button-filled ms-3" href="Order.html">order now</a>
-                    </li>
-                </ul>
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#services">Services</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#contact">Contact</a>
+  </li>
+  <li class="nav-item">
+    <a href="order.html" class="btn btn-warning ms-lg-3">Order Now</a>
+  </li>
+</ul>
+
+
             </div>
         </div>
     </nav>
+
 
     <!-- success message for users who successfully submit a form -->
     <main id="success" class="container section text-center">
@@ -64,46 +64,30 @@
             <div class="col-12 col-md-8">
                 <h1 class="display-3">Thank you!</h1>
                 <p class="lead">Your form has been submitted successfully!</p>
-                <a href="index.html" class="btn custom-button-outline mb-5">Return to the home page</a>
+                <a href="index.html" class="btn custom-button-outline mb-4">Return to the home page</a>
             </div>
         </div>
     </main>
 
     <!-- contact section -->
-    <footer id="contact" class="mt-auto">
-        <div class="container section">
-            <div class="row justify-content-center">
-                <div class="col-12 text-center">
-                    <h2 class="display-5">Contact us!</h2>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4">
-                    <h3 class="sub-heading-color">Contact info</h3>
-                    <!-- business address in <address> element for semantic html -->
-                    <address>
-                        <strong><i class="fa-solid fa-location-dot"></i> Delight Sprinkle Treats</strong>
-                        <br>
-                        Central Park Sandyford
-                        <br>
-                        Dublin, Ireland
-                    </address>
-                    <p>
-                        <i class="fa-solid fa-phone"></i> 012 345 6789<br>
-                        <i class="fa-regular fa-paper-plane"></i> <a href="mailto:delightsprinkletreatsbookings@gmail.com">delightsprinkletreatsbookings@gmail.com</a>
-                    </p>
-                    <div class="social-icons mt-4">
-                        <a href="https://www.instagram.com" target="_blank" rel="noopener"
-                            aria-label="Visit our Instagram page (opens in a new tab)"><i
-                                class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.facebook.com" target="_blank" rel="noopener"
-                            aria-label="Visit our Facebook page (opens in a new tab)"><i
-                                class="fa-brands fa-square-facebook"></i></a>
-                        <a href="https://www.twitter.com" target="_blank" rel="noopener"
-                            aria-label="Visit our Twitter feed (opens in a new tab)"><i
-                                class="fa-brands fa-x-twitter"></i></a>
-                    </div>
+    <footer class="bg-green text-white py-5 mt-auto" id="contact">
+        <div class="container text-center">
+            <h4 class="text-warning">Contact Info</h4>
+            <p><strong>Delight Sprinkle Treats</strong><br>
+                Central park, Sandyford</p>
+            <p><i class="fa-solid fa-phone"></i> 098 765 4321<br>
+                <i class="fa-regular fa-paper-plane"></i> <a href="mailto:delightsprinkletreatsbookings@gmail.com" class="text-light">delightsprinkletreatsbookings@gmail.com</a></p>
+            <div class="social-links mt-3">
+                <a href="https://www.instagram.com/delightsprinkletreats?igsh=OXI4ODZkMWx1eHBi" target="_blank" class="text-light mx-2"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                <a href="https://www.facebook.com/share/1A4qpkkig8/?mibextid=wwXIfr" target="_blank" class="text-light mx-2"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                <a href="https://www.twitter.com" target="_blank" class="text-light mx-2"><i class="fa-brands fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
 
 
-                    <!-- font awesome 6 -->
+     <!-- font awesome 6 -->
+
     <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
     <!-- bootstrap 5 js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
