@@ -78,10 +78,7 @@ Git & GitHub for version control
 
 📷 Screenshots
 
-Include screenshots of your site here using the following Markdown syntax:
 
-![Homepage](images/screenshot-home.png)
-![Carousel](images/screenshot-carousel.png)
 
 
 
